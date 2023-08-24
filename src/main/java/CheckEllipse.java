@@ -14,7 +14,7 @@ class CheckEllipse {
             System.out.println();
         }
 //      if (checkpoint(h, k, x, y, a, b) == 1)
-//            System.out.println("На эллипсе");
+//           System.out.println("На эллипсе");
     }
     static float checkpoint(float xE, float yE, float x, float y, float w, float h) {
         return (float) ((Math.pow((x - xE), 2) / Math.pow(w, 2)) + (Math.pow((y - yE), 2) / Math.pow(h, 2)));
