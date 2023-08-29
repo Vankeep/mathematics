@@ -26,7 +26,7 @@ public class BezierCurve extends JPanel {
         int prom1X = (startX+centreX)/2;
         int prom2X = (centreX+endX)/2;
 
-        // Добавляем управляющие точки   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
+        // Добавляем управляющие точки   
         p.add(new Point(startX, line));
         p.add(new Point(prom1X, line));
         p.add(new Point(prom1X, initialSliderValue));
